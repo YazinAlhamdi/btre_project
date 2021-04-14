@@ -140,3 +140,10 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
+
+# Email config
+EMAIL_HOST = 'mail.hlc.ly'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'billing_alerts@hlc.ly'
+EMAIL_HOST_PASSWORD = 'billinghatif'
+EMAIL_HOST_TLS = True
