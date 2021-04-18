@@ -32,8 +32,8 @@ def contact(request):
     send_mail (
         'Property Listing Inquiry',
         'There has been an inquiry for ' + listing + '. Sign into the admin panel for more info',
-        'billing_alerts@hlc.ly', 
-        [realtor_email, 'y.alhamdi@hlc.ly'],
+        '', 
+        [realtor_email, ''],
         fail_silently=False
     )
      

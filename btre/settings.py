@@ -142,8 +142,8 @@ MESSAGE_TAGS = {
 }
 
 # Email config
-EMAIL_HOST = 'mail.hlc.ly'
+EMAIL_HOST = ''
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'billing_alerts@hlc.ly'
-EMAIL_HOST_PASSWORD = 'billinghatif'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_HOST_TLS = True
